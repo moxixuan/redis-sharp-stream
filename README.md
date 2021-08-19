@@ -2,7 +2,11 @@
 a simple to implement redis stream by charp
 
 why?
-i need Message queue (like RabbitMQ) or Kafka, but i can't use it.(My company is not supported sometime) but it support redis-server.
+i need Message queue (like RabbitMQ) or Kafka, it only depend on redis.
+
+why not StackExchange.Redis?
+it is a nice job. but the not support block read.
+https://stackexchange.github.io/StackExchange.Redis/PipelinesMultiplexers
 
 
 https://redis.io/topics/streams-intro
